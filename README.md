@@ -67,7 +67,7 @@ We will be using the following machine learning Model for clustering:
 
 # Project Step/Tasks List
 
- 	## Comment	Deadline	Responsible
+ 	 Comment	Deadline	Responsible
   
 Step 1 - Data Cleaning
 Sub Category: Missing Data	All the missing data are non-numerical: We will first test if missing attributes are correlated via chi-square test with the classification attribute we are trying to estimate (i.e. Loan Status) to determine whether they are MCAR, MAR or MNAR. We will likely replace the missing value with a global constant indicating that they did not provide a description and keep an eye out for MNAR categories	 
@@ -82,7 +82,7 @@ Step 3- Training Set and Test Set
 Sub Category: Creating the Training Set	We will split up the dataset into a Training Set and a Test Set using	 18/01	 Moh
 			
 Step 4- Clustering
-Sub Category: Determining the optimal number of Clusters	We will create multiple dataset. The first dataset will contain all the data. The other datasets will be created using clustering methodology. we will determine the optimal number of clusters by combining the elbow method and the silhouette measure. We will see if clustering improving the accuracy of our model.	 18/01	 
+Sub Category: Determining the optimal number of Clusters	We will create multiple dataset. The first dataset will contain all the data. The other datasets will be created using clustering methodology. we will determine the optimal number of clusters by combining the elbow method and the silhouette measure. We will see if clustering improving the accuracy of our model.	 	 
 Sub Category: Finalising the new dataset	We will create the new datasets based on the output from PAM using the optimal number of clusters above.
 			
 Step 4- Normalising Dataset
@@ -111,7 +111,7 @@ Sub Category: Recall, Precision and F1 Score
 
 
 
-References:
+# References:
 
 Amira K; Ajith. A. (2013) ‘Modelling consumer loan default prediction using ensemble neural networks’ 2013 INTERNATIONAL CONFERENCE ON COMPUTING, ELECTRICAL AND ELECTRONIC ENGINEERING (ICCEEE) 
 
