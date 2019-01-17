@@ -79,7 +79,7 @@ Sub Category: Feature Redundancy	We will first test for features redundancy usin
 Sub Category: Features Elimination	We will select the key features using Recursive Feature Elimination via Random Forest	 
 			
 Step 3- Training Set and Test Set
-Sub Category: Creating the Training Set	We will split up the dataset into a Training Set and a Test Set using	 18/01	 Moh
+Sub Category: Creating the Training Set	We will split up the dataset into a Training Set and a Test Set using	 
 			
 Step 4- Clustering
 Sub Category: Determining the optimal number of Clusters	We will create multiple dataset. The first dataset will contain all the data. The other datasets will be created using clustering methodology. we will determine the optimal number of clusters by combining the elbow method and the silhouette measure. We will see if clustering improving the accuracy of our model.	 	 
